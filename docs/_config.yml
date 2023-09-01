@@ -1,0 +1,11 @@
+
+title: Gamebuino par CS_S
+description: >-
+  Gamebuino par chris-scientist studio
+  Site autour de Gamebuino
+baseurl: ""
+url: "https://gamebuino.cthubert.fr"
+timezone: Europe/Paris
+
+# Build settings
+markdown: kramdown

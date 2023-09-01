@@ -1,0 +1,153 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	font-family: Baskerville, Helvetica,  Arial,sans-serif;
+}
+header {
+	margin-bottom: 6%;
+}
+header .left-menu {
+	float: left;
+	width: 15%;
+}
+header .left-menu-mobile {
+	display: none;
+}
+header h1 {
+	text-align: left;
+	padding-left: 38%;
+}
+p {
+	font-family: Baskerville;
+}
+a,
+a:hover {
+	color: #fff;
+	text-decoration-color: #007bff;
+}
+a:hover {
+	text-decoration: none;
+	color: #007bff;
+}
+#main-container section {
+	padding-bottom: 2%;
+}
+section {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+section p {
+	font-size: 1.5em;
+}
+section h2 {
+	font-size: 1.8em;
+}
+section ul {
+	font-size: 1.5em;
+}
+section ul li {
+	line-height: 1.2em;
+}
+section #cuisine-plats {
+	list-style-type: "\01F60B";
+	text-align: left;
+}
+section #cuisine-plats li {
+	padding-left: 1%;
+}
+footer {
+	height: 3%;
+	padding-bottom: 0.2%;
+	background-color: rgba(51, 51, 51, .5);
+}
+/* In portrait (820x1180 or 1024x1366) */
+@media only screen and (orientation: portrait) and (
+	((max-device-width: 820px) and (max-device-height: 1180px)) or 
+	((max-device-width: 1024px) and (max-device-height: 1366px))
+) {
+	header {
+		margin-bottom: 8%;
+	}
+	header .left-menu {
+		display: none;
+	}
+	header .left-menu-mobile {
+		display: block;
+		position: relative;
+		float: left;
+		width: 10%;
+		left: 8%;
+		background-color: #fff;
+		color: #333;
+		border-radius: 45%;
+		font-size: 1.8em;
+	}
+	#menu-dialog p {
+		font-size: 1.8em;
+	}
+	header h1 {
+		text-align: left;
+		padding-left: 20%;
+		font-size: 3.8em;
+	}
+	section h2 {
+		font-size: 2.8em;
+	}
+	footer {
+		font-size: 1.8em;
+	}
+}
+/* For Surface in portrait */
+@media only screen and (max-device-width: 912px) and (max-device-height: 1368px) and (orientation: portrait) {
+	header {
+		margin-bottom: 8%;
+	}
+	section {
+		width: 80%;
+	}
+	section p {
+		font-size: 2.8em;
+	}
+	section ul li {
+		font-size: 1.8em;
+	}
+}
+/* In portrait */
+@media only screen and (orientation: portrait) and (
+	((max-device-width: 360px) and (max-device-height: 740px)) or 
+	((max-device-width: 390px) and (max-device-height: 844px)) or 
+	((max-device-width: 412px) and (max-device-height: 915px)) or 
+	((max-device-width: 414px) and (max-device-height: 736px)) or 
+	((max-device-width: 414px) and (max-device-height: 896px)) or 
+	((max-device-width: 480px) and (max-device-height: 854px)) or 
+	((max-device-width: 600px) and (max-device-height: 960px)) or 
+	((max-device-width: 800px) and (max-device-height: 1280px))
+) {
+	section {
+		margin-bottom: 10%;
+	}
+}
+/* In landscape */
+@media only screen and (orientation: landscape) and (
+	((max-device-width: 736px) and (max-device-height: 414px)) or 
+	((max-device-width: 740px) and (max-device-height: 360px)) or 
+	((max-device-width: 844px) and (max-device-height: 390px)) or 
+	((max-device-width: 854px) and (max-device-height: 480px)) or 
+	((max-device-width: 896px) and (max-device-height: 414px)) or 
+	((max-device-width: 915px) and (max-device-height: 412px)) or 
+	((max-device-width: 960px) and (max-device-height: 600px)) or 
+	((max-device-width: 1180px) and (max-device-height: 820px)) or 
+	((max-device-width: 1280px) and (max-device-height: 800px)) or 
+	((max-device-width: 1366px) and (max-device-height: 1024px)) or 
+	((max-device-width: 1368px) and (max-device-height: 912px))
+) {
+	header {
+		margin-bottom: 8%;
+	}
+}
