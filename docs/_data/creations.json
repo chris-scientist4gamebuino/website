@@ -1,0 +1,110 @@
+[{
+	"annee": 2023,
+	"projets": [
+		{
+			"title": "Smiley Demo",
+			"type": "Game",
+			"device": "Gamebuino META",
+			"created-at": "Avril 2023",
+			"description": "Demo d'utilisation de MicoJS, codé par ChatGPT.",
+			"src-img": "smiley-demo.bmp",
+			"alt-img": "Smiley Demo",
+			"game-link": "https://gamebuino.com/fr/creations/smiley-demo-with-micojs-and-chatgpt",
+			"repository": "https://github.com/chris-scientist4gamebuino/smiley-demo"
+		}
+	]
+},
+{
+	"annee": 2022,
+	"projets": [
+		{
+			"title": "Power Meta",
+			"type": "Game",
+			"device": "Gamebuino META",
+			"created-at": "Septembre 2022",
+			"description": "Ce jeu est une version de poche du Puissance 4.",
+			"src-img": "power-meta.bmp",
+			"alt-img": "Power Meta, le jeu",
+			"game-link": "https://gamebuino.com/fr/creations/power-meta",
+			"repository": "https://github.com/chris-scientist4gamebuino/gb-power-meta"
+		}
+	]
+},
+{
+	"annee": 2020,
+	"projets": [
+		{
+			"title": "Sauvegarde site Gamebuino",
+			"type": "Website",
+			"device": "Gamebuino META",
+			"created-at": "Octobre 2020",
+			"description": "Sauvegarde du site Gamebuino en 2020.",
+			"src-img": "backup2020.png",
+			"alt-img": "Sauvegarde site Gamebuino 2020",
+			"web-link": "https://gb-legacy.cthubert.fr/"
+		}
+	]
+},
+{
+	"annee": 2019,
+	"projets": [
+		{
+			"title": "Platformers : les bases",
+			"type": "Workshop",
+			"device": "Gamebuino META",
+			"created-at": "Août 2019",
+			"description": "Ce workshop propose de découvrir les bases du développement d'un jeu de plateformes.",
+			"src-img": "platformer-01.gif",
+			"alt-img": "Capture de ce premier platformer",
+			"ws-link": "https://chris-scientist.github.io/gb-platformer-ws-01/"
+		},
+		{
+			"title": "Mélanger des cartes",
+			"type": "Game",
+			"device": "Gamebuino META",
+			"created-at": "Août 2019",
+			"description": "Application pour mélanger des cartes.",
+			"src-img": "shuffling.gif",
+			"alt-img": "Mélanger des cartes",
+			"game-link": "https://gamebuino.com/fr/creations/melanger-des-cartes-shuffling-cards",
+			"repository": "https://github.com/chris-scientist/gb-sorting-cards"
+		}
+	]
+},
+{
+	"annee": 2018,
+	"projets": [
+		{
+			"title": "Met'hanoï",
+			"type": "Game",
+			"device": "Gamebuino META",
+			"created-at": "Octobre 2018",
+			"description": "Mon second jeu est une revisite du jeu des tours de hanoï.",
+			"src-img": "met-hanoi.BMP",
+			"alt-img": "Met'hanoï",
+			"game-link": "https://gamebuino.com/fr/creations/met-hanoi",
+			"repository": "https://github.com/chris-scientist4gamebuino/gb-hanoi"
+		},
+		{
+			"title": "Sokoban",
+			"type": "Workshop",
+			"device": "Gamebuino META",
+			"created-at": "Août 2018",
+			"description": "Mon premier workshop qui introduit la POO et le MVC autour d'un exemple concret qui est le jeu Sokoban.",
+			"src-img": "sokoban.BMP",
+			"alt-img": "Sokoban Workshop",
+			"ws-link": "https://chris-scientist.github.io/gamebuino/academy-fr/sokoban-vs-poo.html"
+		},
+		{
+			"title": "Rubik's cube",
+			"type": "Game",
+			"device": "Gamebuino META",
+			"created-at": "Juin 2018",
+			"description": "Ce jeu est ma première réalisation pour Gamebuino.",
+			"src-img": "rubiks-cube.BMP",
+			"alt-img": "Rubik's cube",
+			"game-link": "https://gamebuino.com/fr/creations/jeu-rubik-s-cube",
+			"repository": "https://github.com/chris-scientist4gamebuino/gb-rubiks-cube"
+		}
+	]
+}]

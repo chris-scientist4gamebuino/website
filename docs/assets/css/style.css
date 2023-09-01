@@ -61,6 +61,33 @@ section #ressource-externe {
 section #ressource-externe li {
 	padding-left: 1%;
 }
+section article .all-projects .year h3 {
+    font-size: 1.6em;
+    margin-top: 10%;
+    text-align: left;
+}
+section article .all-projects .year .card-project {
+    margin-bottom: 5%;
+    border-radius: 10px;
+    box-shadow: -5px 5px 10px #fff;
+    padding: 1%;
+}
+section article .all-projects .year .card-project .card-img {
+    float: right;
+    width: 20%;
+}
+section article .all-projects .year .card-project .card-body h4 {
+    font-size: 1.4em;
+    color: #007bff;
+    text-align: left;
+}
+section article .all-projects .year .card-project .card-body h5 {
+    font-size: 1.2em;
+    text-align: left;
+}
+section article .all-projects .year .card-project .card-body .card-text {
+    text-align: left;
+}
 footer {
 	height: 3%;
 	padding-bottom: 0.2%;
