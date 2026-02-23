@@ -5,6 +5,10 @@ description: >-
   Site autour de Gamebuino
 baseurl: ""
 url: "https://gamebuino.cthubert.fr"
+wip: false
+comment-link:
+  fr: "https://gamebuino.cthubert.fr/learning/ws/platformer/fundamentals/fr/feedback/"
+  en: "https://gamebuino.cthubert.fr/learning/ws/platformer/fundamentals/en/feedback/"
 timezone: Europe/Paris
 
 # Build settings

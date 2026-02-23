@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ page.title }} - {{ site.title }}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ site.url }}/assets/css/learning/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Highligh -->
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.0/styles/solarized-dark.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.0/highlight.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', (event) => {
+        document.querySelectorAll('pre code').forEach((block) => {
+          hljs.highlightBlock(block);
+        });
+      });
+    </script>
+    <!-- Custom styles for this template -->
+    <link href="{{ site.url }}/assets/css/learning/cover.css" rel="stylesheet" type="text/css" />
+    <link href="{{ site.url }}/assets/css/learning/default.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+      {% if site.wip %}
+      <div class="alert alert-danger" role="alert">
+        <h4 class="alert-heading">Work in progress !</h4>
+        <p>It's draft version ! I work on this workshop, so there are few errors or bugs. And the comments is unviailable !</p>
+      </div>
+      {% endif %}
+
+      {{ content }}
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+            <p>
+                <a href="{{ site.url }}" class="btn btn-light" role="button" >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                        <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
+                    </svg>
+                </a>
+                Gamebuino - <a href="https://findme.cthubert.fr/" >chris-scientist</a>
+            </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+

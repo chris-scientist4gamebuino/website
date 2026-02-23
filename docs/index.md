@@ -4,14 +4,10 @@ permalink: /
 ---
 
 <section>
-	<article style="background-color: #ffc107; color: #333;" >
-		<p>
-			Le site est en cours de construction, le contenu sera publié prochainement, merci de votre compréhension.
-		</p>
-	</article>
     <article>
 		<h2>Quelques liens internes</h2>
 		<ul id="ressource-interne" >
+            <li><a href="/learning/" >Apprendre</a></li>
             <li><a href="/mes-projets/" >Mes projets</a></li>
         </ul>
 	</article>
