@@ -54,11 +54,13 @@ section ul {
 section ul li {
 	line-height: 1.2em;
 }
-section #ressource-externe {
+section #ressource-externe,
+section #ressource-interne {
 	list-style-type: "\01F440";
 	text-align: left;
 }
-section #ressource-externe li {
+section #ressource-externe li,
+section #ressource-interne li {
 	padding-left: 1%;
 }
 section article .all-projects .year h3 {
